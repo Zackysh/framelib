@@ -1,7 +1,7 @@
-import type { NextPage } from "next";
+import { CustomNextPage } from "./_app";
 
-const Home: NextPage = () => {
-  return <div></div>;
+const Index: CustomNextPage = () => {
+  return <div className="h-full w-full bg-black text-white">Index</div>;
 };
 
-export default Home;
+export default Index;
